@@ -1,12 +1,22 @@
 
-# cpp_pointers_practice
+
+# Pointers Practice
+
 Created functions in C++ to create pointers and arrays to demonstrate basic understanding of the data structure
 
-Initializes an array with a size that the user enters
-Then loops and has user fill in x numbers
-used 2 ways to access and print the elements 
-delete function because mem deallocate before program ends
-Set array to NULL is good practice
-Return zero
+Process 
 
-Dynamic Arrays allow me to allocate and deallocate memory during runtime. To insert and delete arrays
+       1. The program initialzes an array with a interger size that the user enters.
+       
+       2. The program calls a for loop that create an array with x many elements. X being the number the user entered.
+       
+       3. Once the first for loop is finished executing, a second is called. In this for loop, elements are printed in two different ways. 
+       
+       4. Once the for loop is finished, the program calls the delete function. This is necessary because in C++ memory must be dealloacted       
+          before the program ends
+       
+       5. Program sets the array to NULL. This is good practice to prevent memory leak.
+
+By using dynamic arrays, I was able to allocate and deallocate memory during runtime. 
+
+To use this program, it must be run in a terminal with a C++ compiler.
